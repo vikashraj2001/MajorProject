@@ -1,0 +1,94 @@
+.Headers{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-evenly;
+}
+.header_logo{
+    width: 120px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    margin:0 50px;
+    background-size: auto;
+    margin-top: -2px;
+    
+
+}
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header_searchInput{
+    height: 15px;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: "Poppins",sans-serif
+}
+
+.header_location{
+    height: 15px;
+    padding: 10px;
+    border: none;
+    width: 17%;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-family: "Poppins",sans-serif
+}
+.header_location:hover{
+    border: 2px solid white; 
+    padding: 10px;
+
+}
+.search_icon{
+    padding: 11.5px;
+    color: black;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 12px !important;
+    background-color:#efc90deb;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    margin: 0 20px  ;
+    
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header_option:hover{
+    border: 2px solid white; 
+    padding: 10px;
+
+    
+}
+.option_lineone{
+    font-size: 10px;
+}
+.option_linetwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+.header_Rigsterpg{
+    color: white;
+}
+ 
