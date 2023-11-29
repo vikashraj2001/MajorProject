@@ -9,6 +9,7 @@
          max-height: 400px;
          min-width: 100px;
          z-index: 1;
+    
          background-color: white;
          
         }
@@ -33,7 +34,4 @@
     margin-right: 22vw;
     border-color: #a88734 , #9c7e31,#846a29;
     color: #111;
-}
-.product_rating{
-     
 }

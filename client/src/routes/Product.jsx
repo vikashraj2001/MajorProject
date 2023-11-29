@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheets/Product.css";
+import home_icon from "../Assets/room1.jpg"
 import { Link } from 'react-router-dom';
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
@@ -18,7 +19,7 @@ function Product(title, image, price) {
           </Stack>
         </div>
       </div>
-      <img src="./room1.jpg" alt="" />
+      <img src={home_icon} alt="" />
       <Link to={"/colleges/pg/:id"}>
       <button>Find Details</button>
       </Link>

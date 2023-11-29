@@ -4,9 +4,10 @@ flex-direction: column;
 align-items: center;
 margin: auto;
 margin-top: 50px;
-padding-bottom: 35px;
+padding-bottom: 20px;
 background-color:white;
-width: 50%;
+width: 40%;
+margin-bottom: 20px;
 
 
 }

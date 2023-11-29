@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import "../stylesheets/pgdetails.css";
+import home_icon from "../Assets/room1.jpg"
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 
@@ -16,30 +17,26 @@ const PgDetails = () => {
   console.log(useLoaderData());
   return (
   
-      <div className="products_details">
-      <div className="product_detailsinfo">
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum possimus </p>
-        <p className="room_price">
-          <strong>&#8377; 5000</strong>
-        </p>
-        <div className="product_rating">
-          <Stack spacing={1}>
-            <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
-          </Stack>
-        </div>
-        
-      
-      <img src="./room1.jpg" alt="" />
-     
-      <div className="detials">Address: {pg_address}</div>
+    <div className="products">
+    <div className="product_info">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum possimus </p>
+      <p className="room_price">
+        <strong>&#8377; 5000</strong>
+      </p>
+      <div className="product_rating">
+        <Stack spacing={1}>
+          <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+        </Stack>
+      </div>
+    </div>
+    <img src={home_icon} alt="" />
+    <div className="detials">Address: {pg_address}</div>
 
-      <div className="detials">Contact: {owner_contact}</div>
-      <div className="detials">Rent: {pg_rent} </div>
-      <div className="detials">Gender Requirement: {gender_requirement} </div>
-      
-    </div>
-    </div>
+<div className="detials">Contact: {owner_contact}</div>
+<div className="detials">Rent: {pg_rent} </div>
+<div className="detials">Gender: {gender_requirement} </div>
+    
+  </div>
   );
 };
 

@@ -19,6 +19,12 @@ const  Header =()=> {
         <CgSearch className="search_icon"/>
       </div>
       <div className="header_nav">
+      <Link to={"/colleges/"}>
+        <div className="header_option">
+          <span className="option_lineone">College</span>
+          <span className="option_linetwo">List</span>
+        </div>
+        </Link> 
          <Link to={"/colleges/pg/add-pg"}>
         <div className="header_option">
           <span className="option_lineone">Register</span>

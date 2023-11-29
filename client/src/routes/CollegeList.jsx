@@ -17,16 +17,19 @@ const CollegeList = () => {
 
   return (
     <div className="collegeList">
-      College List
+     <h1> College List</h1>
       <>
+      <div className="collegelistcard">
         {college_list.map((college) => (
           <CollegeCard
+      
             key={college.college_id}
             college_id={college.college_id}
             college_name={college.college_name}
             college_address={college.college_address}
           />
         ))}
+        </div>
       </>
     </div>
   );

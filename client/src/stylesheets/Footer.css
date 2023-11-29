@@ -1,0 +1,82 @@
+
+.footer {
+    background-color:#efc90deb;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Poppins",sans-serif;
+    
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #fff;
+    font-size: 1.5em;
+    
+  }
+  .icon.linkedin {
+    color: #0077b5; /* LinkedIn blue color */
+  }
+  
+  .icon.facebook {
+    color: #1877f2; /* Facebook blue color */
+  }
+  
+  .icon.twitter {
+    color: #1da1f2; /* Twitter blue color */
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+
+}
+p{
+    font-family: "Poppins",sans-serif;  
+    color: black;
+}
+
+  
+  
+  /* Copyright section styles */
+  .copyright-section {
+    flex: 1;
+    margin: 10px;
+    order: 5; 
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      flex: 100%;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  }

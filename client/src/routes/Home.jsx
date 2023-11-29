@@ -15,9 +15,9 @@ const Home = () => {
         <Product />
         <Product />
         </div>
-        <div className="home_row">{
+        <div className="home_row">
             <Product />
-        }</div>
+        </div>
       </div>
     </div>
   );

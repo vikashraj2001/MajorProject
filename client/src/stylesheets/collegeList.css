@@ -1,8 +1,23 @@
-.collegeList {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  gap: 2vw;
+.collegeList{
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  background:white;
+  margin-bottom: 200px;
+   margin-top: 20px;
+   height: 300px;
+}
+.collegelistcard{
+
+display: flex;
+align-items:center;
+text-align: center;
+justify-content: center;
+width: 100%;
+}
+.collegeList h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  color:#efc90deb ;
 }
