@@ -14,9 +14,9 @@ const  Header =()=> {
     
         <input type="text" className="header_location" placeholder="Search Location...." />
         
-        <input type="text" className="header_searchInput" placeholder="Search....." />
+        {/* <input type="text" className="header_searchInput" placeholder="Search....." /> */}
     
-        <CgSearch className="search_icon"/>
+        {/* <CgSearch className="search_icon"/> */}
       </div>
       <div className="header_nav">
       <Link to={"/colleges/"}>

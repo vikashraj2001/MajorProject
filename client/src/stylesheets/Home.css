@@ -6,6 +6,9 @@
     max-width: 1600px;
  
 }
+.home_container{
+    height:1653px;
+}
 .home_row{
     display: flex;
     z-index: 1;

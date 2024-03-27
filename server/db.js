@@ -8,7 +8,7 @@ const Pool = require("pg").Pool;
 //   port: process.env.DB_PORT,
 // });
 
-const connectionStr = "postgres://pglocator_user:xsAVhXfApw7OufbJPTscNWFTPDWkQQyi@dpg-cl48b7biu76s73b6hgig-a.singapore-postgres.render.com/pglocator";
+const connectionStr = "postgres://pgdatabase_hk4f_user:dRchO3s50263UNQnXv6AKFv4qU2Wikj6@dpg-co1u7l8l6cac73d2q76g-a.singapore-postgres.render.com/pgdatabase_hk4f?sslmode=no-verify";
 const pool = new Pool({
   connectionStr,
 })

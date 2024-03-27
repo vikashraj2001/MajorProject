@@ -20,7 +20,7 @@ function Product(title, image, price) {
         </div>
       </div>
       <img src={home_icon} alt="" />
-      <Link to={"/colleges/pg/:id"}>
+      <Link to={"/colleges/pg/8"}>
       <button>Find Details</button>
       </Link>
     </div>
