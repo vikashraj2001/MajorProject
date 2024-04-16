@@ -37,7 +37,7 @@ const PgDetails = () => {
 <div className="detials">Gender: {gender_requirement} </div>
     
   </div>
-  <div className="products">
+  {/* <div className="products">
     <div className="product_info">
       <p>  PG: Best Room in The Kharar with Minimum Price </p>
       <p className="room_price">
@@ -56,7 +56,7 @@ const PgDetails = () => {
 <div className="detials">Rent: {pg_rent} </div>
 <div className="detials">Gender: {gender_requirement} </div>
     
-  </div>
+  </div> */}
   </section>
   );
 };

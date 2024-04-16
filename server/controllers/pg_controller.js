@@ -13,6 +13,16 @@ const get_pg = async (req, res) => {
   }
 };
 
+const get_all_pg = async (req, res) => {
+  try {
+    const queryText = "SELECT * FROM pg";
+    const result = await pool.query(queryText);
+    res.json(result.rows);
+  } catch (e) {
+    throw e;
+  }
+}
+
 const insert_pg = async (req, res) => {
   // Creating a clinet as we are going to perform a transaciton
   const client = await getClient();
@@ -60,4 +70,4 @@ const insert_college_pg = async (client, college_id, pg_id) => {
   ]);
 };
 
-module.exports = { get_pg, insert_pg };
+module.exports = { get_pg, get_all_pg, insert_pg };

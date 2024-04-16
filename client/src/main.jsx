@@ -6,7 +6,7 @@ import CollegeList, { get_colleges } from "./routes/CollegeList.jsx";
 import PgList, { get_pg_list } from "./routes/PgList.jsx";
 import PgDetails, { get_pg_details } from "./routes/PgDetails.jsx";
 import AddPgForm, {get_colleges_for_form,submitPgData,} from "./routes/AddPgForm.jsx";
-import Home from "./routes/Home.jsx";
+import Home, { get_pu_pg_list } from "./routes/Home.jsx";
 import Login from "./routes/Login.jsx";
 import Header from "./routes/Header.jsx";
 import Footer from "./routes/Footer.jsx";
@@ -16,6 +16,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {path:"/",
+      loader: get_pu_pg_list,
         element:<Home/>
        },
        {

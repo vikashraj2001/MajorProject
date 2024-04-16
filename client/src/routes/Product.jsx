@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 
-function Product(title, image, price) {
+function Product({pg_id, pg_address, pg_rent}) {
   return (
     <div className="products">
       <div className="product_info">
-        <p>2 BHK FLAT IN LESS PRICE </p>
+        <p>Address: {pg_address} </p>
         <p className="room_price">
-          <strong>&#8377; 4500</strong>
+          <strong>&#8377; {pg_rent}</strong>
         </p>
         <div className="product_rating">
           <Stack spacing={2}>
@@ -20,7 +20,7 @@ function Product(title, image, price) {
         </div>
       </div>
       <img src={home_icon} alt="" />
-      <Link to={"/colleges/pg/1"}>
+      <Link to={`/colleges/pg/${pg_id}`}>
       <button>Find Details</button>
       </Link>
     </div>
