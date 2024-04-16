@@ -45,10 +45,9 @@ const Footer = () => {
       <div className="footer-section">
         <h2>About Us</h2>
         <p>
-        <strong>
-        Looking for a comfortable and affordable Paying Guest (PG) accommodation? Look no further! PG Finder is your go-to platform for discovering the perfect PG that suits your needs.
-        </strong>
-         
+
+        LOOKING FOR A COMFORTABLE AND AFFORDABLE PAYING GUEST (PG) ACCOMMODATION? LOOK NO FURTHER! PG FINDER IS YOUR GO-TO PLATFORM FOR DISCOVERING THE PERFECT PG THAT SUITS YOUR NEEDS."
+
         </p>
       </div>
       <div className="copyright-section">

@@ -8,6 +8,7 @@ import password_icon from "../Assets/password.png"
 const Login = ()=> {
   const[action, setaction]=useState("Login"); 
   return (
+    <section className="bodys">
     <div className='container'>
 <div className="header">
   <div className="text">{action}</div>
@@ -41,6 +42,7 @@ const Login = ()=> {
         <div className={action==="Sign up"?"submit gray":"submit"} onClick={()=>{setaction("Sign up")}}>Sign up</div>
       </div>
     </div>
+    </section>
   )
 }
 

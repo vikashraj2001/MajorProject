@@ -16,10 +16,13 @@ const CollegeList = () => {
   console.log(college_list);
 
   return (
-    <div className="collegeList">
+<section className="bodyss">
+   <div className="collegeList">
+    {/* <img src="./home1.jpg" alt="" className="home_image" />  */}
      <h1> College List</h1>
       <>
       <div className="collegelistcard">
+    
         {college_list.map((college) => (
           <CollegeCard
       
@@ -29,9 +32,10 @@ const CollegeList = () => {
             college_address={college.college_address}
           />
         ))}
-        </div>
+      </div>
       </>
     </div>
+    </section>
   );
 };
 

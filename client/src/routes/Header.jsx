@@ -32,10 +32,10 @@ const  Header =()=> {
         </div>
         </Link> 
         <Link to={"/Login"}>
-        <div className="header_option">
+        {/* <div className="header_option">
           <span className="option_lineone">Hello Guest</span>
           <span className="option_linetwo">Sign In</span>
-        </div>
+        </div> */}
         </Link> 
       </div>
     </div>

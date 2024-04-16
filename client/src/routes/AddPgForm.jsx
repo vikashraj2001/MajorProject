@@ -73,6 +73,7 @@ const AddPgForm = () => {
 
   // Form here is react-router form. It initiates an Action when the method is put, post , delete etc.
   return (
+  <section className="bodys">
   <div className="Container">
     <Form method="post" >
       <div className="header">
@@ -152,6 +153,7 @@ const AddPgForm = () => {
       
     </Form>
     </div>
+    </section>
   );
 };
 

@@ -16,12 +16,12 @@ const PgDetails = () => {
     useLoaderData()[0];
   console.log(useLoaderData());
   return (
-  
+    <section className="bodys">
     <div className="products">
     <div className="product_info">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum possimus </p>
+      <p> Flat: Best Room in The Mohali with Minimum Price </p>
       <p className="room_price">
-        <strong>&#8377; 5000</strong>
+        <strong>&#8377; {pg_rent}</strong>
       </p>
       <div className="product_rating">
         <Stack spacing={1}>
@@ -37,6 +37,27 @@ const PgDetails = () => {
 <div className="detials">Gender: {gender_requirement} </div>
     
   </div>
+  <div className="products">
+    <div className="product_info">
+      <p>  PG: Best Room in The Kharar with Minimum Price </p>
+      <p className="room_price">
+        <strong>&#8377; {pg_rent}</strong>
+      </p>
+      <div className="product_rating">
+        <Stack spacing={1}>
+          <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+        </Stack>
+      </div>
+    </div>
+    <img src={home_icon} alt="" />
+    <div className="detials">Address: {pg_address}</div>
+
+<div className="detials">Contact: {owner_contact}</div>
+<div className="detials">Rent: {pg_rent} </div>
+<div className="detials">Gender: {gender_requirement} </div>
+    
+  </div>
+  </section>
   );
 };
 

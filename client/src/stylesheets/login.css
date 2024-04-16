@@ -1,8 +1,17 @@
+.bodys{
+  
+    background-image: url("../public/home1.jpg");
+    height: 100vh;
+    background-size: cover;
+    margin-top: -31px;
+    box-shadow: 0 0 2000px rgb(0,0,0,0.5);
+  }
+
 .container{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 100px;
+      margin: 0 auto;
     width:450px;
     background: white;
     padding-bottom: 30px;
@@ -15,7 +24,7 @@
     align-items: center;
     gap: 9px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
 
 }
 .text{

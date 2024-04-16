@@ -13,12 +13,24 @@
   .footer-section {
     flex: 1;
     margin: 10px;
+    text-align: justify;
+    color: white;
   }
   
   h2 {
     font-size: 1.2em;
     font-weight: 700;
     font-family: "Poppins",sans-serif;
+    color: white;
+  }
+  p{
+    color: white;
+  }
+  .fab{
+    background-color: white;
+    color: white;
+    width: 10%;
+    height: 10%;
   }
   
   .social-icons {

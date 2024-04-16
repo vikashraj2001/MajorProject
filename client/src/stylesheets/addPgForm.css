@@ -1,14 +1,20 @@
-.Container{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: auto;
-margin-top: 50px;
-padding-bottom: 20px;
-background-color:white;
-width: 40%;
-margin-bottom: 20px;
+.bodys{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../public/home1.jpg");
+  background-size: cover;
+  box-shadow: 0 0 2000px rgb(0,0,0,0.5);
 
+}
+
+.Container{
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px; /* Adjust as needed */
+  margin: 0 auto; 
 
 }
 .text{
@@ -16,7 +22,7 @@ margin-bottom: 20px;
   font-size: 30px;
   font-weight: 700;
   margin-left: 150px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .inputs{
   margin-top: 55px;
